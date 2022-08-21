@@ -1,0 +1,108 @@
+body {
+  text-align: left;
+}
+
+button {
+  background-color: #f2f2f2;
+  border: solid 2px #f2f2f2;
+  border-radius: 35px;
+  color: inherit;
+  display: inline-block;
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 10px 15px;
+  margin: 70px 0 30px 30px;
+}
+
+button:hover {
+  background-color: inherit;
+  border: solid 2px;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+footer {
+  margin: 50px;
+}
+
+h1 {
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', cursive;
+  padding: 0 0 0 35px;
+}
+
+img {
+  padding: 35px 0 0 35px;
+}
+
+main {
+  display: flex;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0 80px 0 35px;
+}
+
+.Sedans {
+  background-color: #e38826;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #e38826;
+  height: 450px;
+  width: 350px;
+}
+
+.SUVs {
+  background-color: #006970;
+  color: #006970;
+  height: 450px;
+  width: 350px;
+}
+
+.Luxury {
+  background-color: #004241;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: #004241;
+  height: 450px;
+  width: 350px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (max-width: 1439px) {
+  main {
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    margin: 200px;
+    justify-content: center;
+  }
+
+  .Sedans {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 6px;
+  }
+
+  .Luxury {
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0;
+  }
+}
